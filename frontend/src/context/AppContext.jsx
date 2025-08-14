@@ -10,7 +10,7 @@ const AppContextProvider = (props)=> {
 
     const currencySymbol = '$'
 
-    const backendUrl = import.meta.env."https://prescripto-w20i.onrender.com"
+    const backendUrl = import.meta.env.VITE_BACKEND_URL
 
     const [doctors , setDoctors] = useState([])
 
