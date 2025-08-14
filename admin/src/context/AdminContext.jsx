@@ -14,7 +14,7 @@ const AdminContextProvider  = (props)=>{
 
 
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = import.meta.env."https://prescripto-w20i.onrender.com"
 
 
     const getAllDoctors = async()=>{
