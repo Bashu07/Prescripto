@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 connectDB()
 connectCloudinary()
 
-const allowedOrigins =[' http://localhost:5173',' http://localhost:5174', 'https://prescripto-frontend-tau.vercel.app']
+const allowedOrigins =[' http://localhost:5173',' http://localhost:5174', 'https://prescripto-frontend-tau.vercel.app','https://prescripto-frontend-git-main-bashu-awasthis-projects.vercel.app']
 
 // Middleware 
 app.use(express.json());
