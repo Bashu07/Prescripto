@@ -27,7 +27,7 @@
 - Node.js with Express.js
 - JWT (JSON Web Token) for authentication
 - bcrypt for password hashing
-- Stripe / Khalti (or any gateway) for payment integration
+
 
 **Database:**
 - MongoDB (Mongoose ODM)
